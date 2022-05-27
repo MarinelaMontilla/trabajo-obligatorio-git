@@ -1,0 +1,50 @@
+#contenedorPadre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:auto;
+    height:500px;
+  }
+  #contenedorFormulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    height: 150px;
+    width:auto;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(245, 245, 245, 0.6);
+    padding:20px;
+  }
+  #contenedorDni, #contenedorUsuario, #contenedorPassword{
+    margin-bottom: 20px;
+  }
+  #button{
+    font-size: 18px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+  }
+  input{
+    border:none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 15px;
+    padding:5px;
+  }
+  #contenedorBoton{
+    display: flex;
+    justify-content: center;
+  }
+  #button:hover{
+    background-color: black;
+    color: white;
+  }
+  
+  #password{
+    width: 185px;
+  }
+  
